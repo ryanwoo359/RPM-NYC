@@ -1,0 +1,22 @@
+html {
+  font-family: "Questrial", sans-serif;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+body {
+  margin: 0;
+  padding-top: 55px;
+}
+
+h1 {
+  padding: 3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 42px;
+  }
+}

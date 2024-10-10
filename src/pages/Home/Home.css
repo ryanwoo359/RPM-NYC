@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+
+.landing-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.vid-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  opacity: 45%;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: whitesmoke;
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 650px;
+}
+
+.rpmlogo {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slide-in-left 1s ease forwards;
+}
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.service-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .rpmlogo {
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slide-in-left 1s ease forwards;
+  }
+}

@@ -1,0 +1,58 @@
+footer {
+  background-color: #131313;
+}
+
+.spacing {
+  margin: 2rem 8rem 0 8rem;
+  padding: 2rem 0 1rem 0;
+}
+
+.topContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.socialContainer {
+  margin: 16px 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.footbar {
+  list-style: none;
+  padding: 0;
+}
+
+.footbar li {
+  margin: 10px 0;
+}
+
+.footlink:hover {
+  color: #ff00b3;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.youtube {
+  width: 1.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .spacing {
+    margin: 0 1rem 0 1rem;
+    padding: 2rem 0;
+  }
+
+  .topContainer {
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .footlink {
+    font-size: 1rem;
+  }
+}

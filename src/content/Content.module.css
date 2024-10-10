@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.info{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    color: #ffffff;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 60%;
+}
+
+
+.image{
+    width: 100%;
+}
